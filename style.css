@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(39, 39, 39);
+}
+.calculatorgrid {
+    margin: 5rem auto;
+    width: 20rem;
+    height: 30rem;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+}
+.calculatorgrid__output {
+    grid-column: 1 / 5;
+    background-color: red;
+}
+.calculatorgrid__output .output__text {
+    padding: 1rem;
+    font-size: 3.5rem;
+    text-align: end;
+}
