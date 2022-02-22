@@ -6,18 +6,79 @@ body {
     background-color: rgb(39, 39, 39);
 }
 .calculatorgrid {
+    gap: .3rem;
     margin: 5rem auto;
-    width: 20rem;
+    width: 22rem;
     height: 30rem;
     display: grid;
     grid-template: repeat(6, 1fr) / repeat(4, 1fr);
 }
 .calculatorgrid__output {
     grid-column: 1 / 5;
-    background-color: red;
 }
 .calculatorgrid__output .output__text {
     padding: 1rem;
     font-size: 3.5rem;
     text-align: end;
+    color: white;
+}
+.calculatorgrid__button1 {
+    grid-column: 1 / 1;
+    grid-row: 2 / 0;
+    background-color: rgb(109, 109, 109);
+}
+.calculatorgrid__button1 p {
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+.calculatorgrid__button2 {
+    grid-column: 2;
+    grid-row: 2 / 0;
+    background-color: rgb(109, 109, 109);
+}
+.calculatorgrid__button2 p {
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+.calculatorgrid__button3 {
+    grid-column: 3;
+    grid-row: 2 / 0;
+    background-color: rgb(109, 109, 109);
+}
+.calculatorgrid__button3 p {
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+.calculatorgrid__button4 {
+    grid-column: 4;
+    grid-row: 2 / 0;
+    background-color: rgb(109, 109, 109);
+}
+.calculatorgrid__button4 p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(209, 209, 209);
+}
+.calculatorgrid__button5 {
+    grid-column: 1;
+    grid-row: 3 / 0;
+    background-color: rgb(109, 109, 109);
+}
+.calculatorgrid__button5 p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(209, 209, 209);
+}
+.calculatorgrid__button6 {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: rgb(109, 109, 109);
 }
